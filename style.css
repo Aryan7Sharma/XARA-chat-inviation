@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://media.discordapp.net/attachments/1060989264986374165/1105666724054978630/d1137f07-cb91-4484-ad2f-bdc28ef6636b.jpg?width=616&height=616") center/cover fixed no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+#main-heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+  color: #d98686;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  background-color:#117c78;
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#card {
+  margin: 1em auto 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+#card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#invite-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#117c78;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#description {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+}
+.formContainer {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: visibility 0s, opacity 0.5s;
+  z-index: 999; 
+}
+
+.showForm {
+  top:0;
+  left: 0;
+}
+
+#form-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#form-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form input {
+  display: block;
+}
+
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 32px;
+  color:wheat;
+  margin-bottom: 20px;
+}
+
+.left-lines {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin: 0;
+}
+
+.input-box {
+  width: 100%;
+  padding: 14px;
+  font-size: 14px;
+  color: #8b8b99;
+  border-radius: 4px;
+  border: 1px solid #e5e6ec;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+}
+
+#btn-1 {
+  font-size: 18px;
+  border: 0px;
+  font-weight: 600;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: rgb(203 41 78);
+}

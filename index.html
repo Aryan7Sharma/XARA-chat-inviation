@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Office Application</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="main-heading">XARA GROUP</h1>
+    <div id="container">
+        <button id="button" onclick="toggleForm()">Add Yourself</button>
+        <div id="card">
+            <h2>Welcome to Our Office</h2>
+            <img src="https://media.discordapp.net/attachments/1060989264986374165/1105657118922641459/f9084e91-2855-40af-a4f1-d73cdaf46c19.jpg?width=616&height=616" alt="Employee Image">
+            <button id="invite-button">Invite</button>
+        </div>
+        <p id="description">This is a description of our office application. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur vestibulum eros vitae luctus. Nunc consectetur commodo commodo. Duis sed velit at lectus tristique tristique vitae eu tellus.</p>
+    </div>
+
+    <div id="form-container" class="formContainer">
+        <div class="left">
+            <h3 class="heading">Get In Touch</h3>
+            <form>
+                <input class="input-box" type="text" name="name" placeholder="Name" />
+                <input class="input-box" type="text" name="phone" placeholder="Phone" />
+                <input class="input-box" type="email" name="email" placeholder="E-mail" />
+                <input id="btn-1" type="submit" value="Submit Now">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function toggleForm() {
+            var formContainer = document.getElementById("form-container");
+            formContainer.classList.toggle("showForm");
+        }
+    </script>
+</body>
+
+</html>
